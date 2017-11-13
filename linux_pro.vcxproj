@@ -44,6 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\linux_vs\linux_solution\linux_solution\libev-master;D:\linux_vs\linux\local\include;D:\linux_vs\linux\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -64,6 +65,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="libevent\DNSTOIP.cpp" />
+    <ClCompile Include="libevent\fifo.cpp" />
+    <ClCompile Include="libevent\helloworld.cpp" />
+    <ClCompile Include="libevent\http-client.cpp" />
+    <ClCompile Include="libevent\http-server-a.cpp" />
+    <ClCompile Include="libevent\http-server.cpp" />
+    <ClCompile Include="libevent\MgrHttpServer.cpp" />
+    <ClCompile Include="libevent\proxy.cpp" />
+    <ClCompile Include="libevent\signal.cpp" />
+    <ClCompile Include="libevent\test.cpp" />
+    <ClCompile Include="libevent\time.cpp" />
+    <ClCompile Include="libevent\writeFifo.cpp" />
+    <ClCompile Include="openssl\openssl-cli.cpp" />
+    <ClCompile Include="openssl\openssl-server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libevent\MgrHttpServer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

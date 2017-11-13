@@ -9,7 +9,6 @@
 
 void generic_cb(struct evhttp_request* req, void* arg)
 {
-// 	struct evbuffer* inb = evhttp_request_get_input_buffer(req);
 // 	char szTemp[512] = { 0 };
 // 	evbuffer_remove(inb, szTemp, evbuffer_get_length(inb));
 // 	printf("get data %s\n", szTemp);
@@ -20,6 +19,7 @@ void generic_cb(struct evhttp_request* req, void* arg)
 
 void testcb(struct evhttp_request* req, void* arg)
 {
+	
 	char* s = "This is the test buf";
 	evbuffer_add(req->output_buffer, s, strlen(s));
 	evhttp_send_reply(req, 200, "OK", NULL);

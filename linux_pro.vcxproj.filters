@@ -13,5 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="libevent">
+      <UniqueIdentifier>{b31c5fd3-9ecf-4004-8568-845ed7fb74d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openssl">
+      <UniqueIdentifier>{19257728-f481-4fda-9b79-c02a277b07d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libevent\helloworld.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\DNSTOIP.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\time.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\signal.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\fifo.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\writeFifo.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\proxy.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\test.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\http-server.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\http-server-a.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\MgrHttpServer.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\http-client.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\openssl-server.cpp">
+      <Filter>openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\openssl-cli.cpp">
+      <Filter>openssl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libevent\MgrHttpServer.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
