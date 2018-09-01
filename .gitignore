@@ -1,0 +1,10 @@
+/target/
+.vs/
+Debug
+Release
+obj
+bin
+*.db
+*.opendb
+*.bak
+*.exe
